@@ -1,0 +1,21 @@
+# Data — never commit the raw filings/datasets
+data/
+*.csv
+*.parquet
+
+# Trained artifacts
+artifacts/
+*.pkl
+*.txt.model
+*.lgb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Keep the report images + markdown so results render on GitHub
+!reports/*.png
+!reports/*.md
